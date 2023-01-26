@@ -8,3 +8,9 @@ puts "Exercise 5"
 puts "----------"
 
 # Your code goes here ...
+
+puts @totalRevenue = Store.sum('annual_revenue')
+
+puts @totalRevenue/6
+
+puts Store.where(annual_revenue: (1000000)..).count
